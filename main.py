@@ -13,8 +13,8 @@ import numpy as np
 # import openpyxl
 # import pybithumb
 
-logging.basicConfig(filename="log.txt", level=logging.ERROR)    # 테스트가 끝나면 이조건을 설정
-#logging.basicConfig(level=logging.INFO)
+# logging.basicConfig(filename="log.txt", level=logging.ERROR)    # 테스트가 끝나면 이조건을 설정
+logging.basicConfig(level=logging.INFO)
 
 class Kiwoom(QAxWidget):
     def __init__(self):
